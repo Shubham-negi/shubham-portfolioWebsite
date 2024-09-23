@@ -9,7 +9,7 @@ import { ProjectsData } from "@/constants";
 import AnimatedButton from "@/components/buttons/AnimatedButton";
 
 
-const Project = () =>{ 
+const Portfolio = () =>{ 
   const [height1, setHeight1] = useState("");
   const [isProjects, setIsProjects] = useState(false);
   const projectRef = useRef();
@@ -38,9 +38,9 @@ const Project = () =>{
 
   return (
     <Fragment>
-      <section id='project' ref={projectRef}>
+      <section id='portfolio' ref={projectRef}>
         <h2 className='text-3xl font-bold text-center pt-4 pb-8 flex justify-center items-center gap-3'>
-          <CgWebsite /> Projects
+          <CgWebsite /> Portfolio
         </h2>
 
         <div
@@ -125,7 +125,7 @@ const Project = () =>{
           ))}
           
           <div className='ml-auto w-fit  mr-10 mt-30'>
-            <AnimatedButton buttoname="Explore projects" />
+            <AnimatedButton buttoname="Explore projects" href="/portfolio" />
           </div>
         </div>
        
@@ -134,4 +134,4 @@ const Project = () =>{
   );
 };
 
-export default Project;
+export default Portfolio;

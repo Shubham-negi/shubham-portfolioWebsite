@@ -6,8 +6,9 @@ const Testimonials = () => {
   return (
     
     <Fragment>
+      <section id="testimonials" >
       <div className="py-8 pt-4 shadow-zinc-300 dark:shadow-zinc-700 shadow-sm">
-        <section id="apps" />
+        
         <h3 className="text-3xl font-bold text-center pb-8 flex justify-center items-center gap-3">
           <span className="mr-3"> {/* place the people icon */}</span>
           Testimonials
@@ -47,6 +48,7 @@ const Testimonials = () => {
 
         {/* Uncomment and implement <MobileScreenApps /> if needed */}
       </div>
+      </section>
     </Fragment>
   );
 };

@@ -20,7 +20,15 @@ export const NavbarMenu = [
         link: "#experience",
     },
     {
-        name: "Project",
-        link: "#project",
+        name: "Portfolio",
+        link: "#portfolio",
+    },
+    {
+        name: "Blogs",
+        link: "#blogs",
+    },
+    {
+        name: "Testimonials",
+        link: "#testimonials",
     },
 ];

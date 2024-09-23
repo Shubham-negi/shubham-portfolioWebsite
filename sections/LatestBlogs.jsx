@@ -45,7 +45,7 @@ const LatestBlogs = () => {
               ))}
           </div>
           <div className='ml-auto w-fit  mx-6 mt-8'>
-            <AnimatedButton buttoname="Explore blogs" />
+            <AnimatedButton buttoname="Explore blogs" href="/blogs"/>
           </div>
         </div>
       </section>

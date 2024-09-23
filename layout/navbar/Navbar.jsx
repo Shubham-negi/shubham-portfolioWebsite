@@ -55,7 +55,7 @@ const Navbar = () => {
           {/* Navbar Links */}
           {NavbarMenu.map((navbar) => (
             <Link
-              className={"text-[#c72c6c] dark:text-[#07d0e5] font-semibold"}
+              className={"text-[#283aff] dark:text-[#07d0e5] font-semibold"}
               href={navbar.link}
               key={navbar.name}
             >

@@ -9,7 +9,7 @@ const Navbar = dynamic(() => import("@/layout/navbar/Navbar"))
 const Footer = dynamic(() => import("@/layout/footer/Footer"))
 const Intro = dynamic(() => import("@/sections/Intro"))
 const Skills = dynamic(() => import("@/sections/Skills"))
-const Projects = dynamic(() => import("@/sections/Projects"))
+const Portfolio = dynamic(() => import("@/sections/Portfolio"))
 const LatestBlogs = dynamic(() => import("@/sections/LatestBlogs"))
 const Apps = dynamic(() => import("@/sections/Apps"))
 const Testimonials = dynamic(() => import("@/sections/Testimonials"))
@@ -67,14 +67,14 @@ const Home = () => {
           {/* Experience */}
           <Experience />
           {/* Projects */}
-          <Projects />
+          <Portfolio />
           {/* SocialMedia */}
           <SocialMedia />
 
           {/* LatestBlog */}
           <LatestBlogs />
           {/* Apps */}
-          <Apps />
+          {/* <Apps /> */}
           {/* Testimonials */}
           <Testimonials />
            {/* Send Mail */}
