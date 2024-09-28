@@ -1,47 +1,58 @@
 export const ProjectsData = [
     {
-        projectName: "Shovee : Personal Portfolio Generator",
-        liveUrl: "https://shovee.com",
-        githubUrl: "https://github.com/iamshiv007/shovee",
+        projectName: "Shubham:Personal porfolio generator",
+        liveUrl: "https://theshubhamnegi.com",
+        githubUrl: "https://github.com/Shubham-negi/shubham-portfolio.git",
         projectImage: {
             imageUrl: "http://res.cloudinary.com/dqfrtazgi/image/upload/v1696218285/yn3naeznjfgszsbbjr92.png"
         },
-        techs: ["NextJS", "TailwindCSS", "Redux Toolkit", "Cloudinary", "Intersection Objerver"]
+        techs: ["NextJS", "TailwindCSS", "Redux Toolkit", "Cloudinary", "Intersection Objerver","ReactJS"]
     },
     {
-        projectName: "YouTube clone",
-        liveUrl: "https://youtube-clone-shivraj.vercel.app",
-        githubUrl: "https://github.com/iamshiv007/yotube-clone",
+        projectName: "Blabeey",
+        liveUrl: "https://apps.apple.com/us/app/blabeey/id1220579408",
+        githubUrl: "https://github.com/shubham/storbeey",
         projectImage: {
-            imageUrl: "http://res.cloudinary.com/dqfrtazgi/image/upload/v1696218286/t1zjvlwogccwit9888w7.png"
+            imageUrl: "/images/Blabeey.jpeg"
         },
-        techs: ["ReactJS", "ContextAPI", "ChakraUI", "YoutubeAPI", "ContextAPI"]
+        techs: ["Unity3d", "Webapi", "Multiplayer"]
+    },
+   
+    {
+        projectName: "Storbeey real-estate",
+        liveUrl: "https://apps.apple.com/us/app/storbeey-real-estate/id1530780780",
+        githubUrl: "https://github.com/shubham/storbeey",
+        projectImage: {
+            imageUrl: "/images/StorbeeyR.webp"
+        },
+        techs: ["Unity3d", "Webapi", "Multiplayer"]
     },
     {
-        projectName: "Eccommerce Application",
-        liveUrl: "https://ecommerce-application-shivraj.vercel.app",
-        githubUrl: "https://github.com/iamshiv007/ecommerce-frontend",
+        projectName: "Storbeey",
+        liveUrl: "https://play.google.com/store/apps/details?id=com.Blabeey.Storbeey&hl=en_US&pli=1",
+        githubUrl: "https://github.com/shubham/storbeey",
         projectImage: {
-            imageUrl: "http://res.cloudinary.com/dqfrtazgi/image/upload/v1696220173/lnnt6nmesjvvmo3nx9ep.png"
+            imageUrl: "/images/storbeey.png"
         },
-        techs: ["ReactJS", "NodeJS", "Express", "MongoDB", "Redux Toolkit"]
+        techs: ["Unity3d", "Webapi", "Multiplayer"]
     },
     {
-        projectName: "Eccommerce Application",
-        liveUrl: "https://ecommerce-application-shivraj.vercel.app",
-        githubUrl: "https://github.com/iamshiv007/ecommerce-frontend",
+        projectName: "Cannavatar",
+        liveUrl: "https://play.google.com/store/apps/details?id=com.blabeey.sirtokesVHuman&hl=en_US",
+        githubUrl: "https://github.com/shubham/Cannavatar",
         projectImage: {
-            imageUrl: "http://res.cloudinary.com/dqfrtazgi/image/upload/v1696220173/lnnt6nmesjvvmo3nx9ep.png"
+            imageUrl: "/images/Cannavatar.png"
         },
-        techs: ["ReactJS", "NodeJS", "Express", "MongoDB", "Redux Toolkit"]
+        techs: ["Unity3d", "Webapi", "Multiplayer"]
     },
     {
-        projectName: "Eccommerce Application",
-        liveUrl: "https://ecommerce-application-shivraj.vercel.app",
-        githubUrl: "https://github.com/iamshiv007/ecommerce-frontend",
+        projectName: "LaunchXR",
+        liveUrl: "https://www.launchxr.io/",
+        githubUrl: "https://github.com/shubham/storbeey",
         projectImage: {
-            imageUrl: "http://res.cloudinary.com/dqfrtazgi/image/upload/v1696220173/lnnt6nmesjvvmo3nx9ep.png"
+            imageUrl: "/images/LaunchXR.png"
         },
-        techs: ["ReactJS", "NodeJS", "Express", "MongoDB", "Redux Toolkit"]
-    }
+        techs: ["ReactJS", "NodeJS", "Express", "MongoDB", "Unity3d",]
+    },
+    
 ]

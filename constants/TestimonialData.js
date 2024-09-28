@@ -14,14 +14,20 @@ export const TestimonialData = [
     {
       name: "Rajat Bisht",
       imageUrl: "./images/Peoples/Rajat.png",
-      description:"Tech content writer",
+      description:"Full stake developer",
       Abilities :["Fullstake","Event organizer"],
   },
   {
     name: "Kamlesh",
     imageUrl: "./images/Peoples/kannu.jpg",
-    description:"Tech content writer",
+    description:"Youtuber",
     Abilities :["Influencer","Photographer"],
+},
+{
+  name: "Suman Reddy",
+  imageUrl: "./images/Peoples/reddy.jpg",
+  description:"Seo specialist",
+  Abilities :["SEO","Digital Marketing"],
 },
 
   

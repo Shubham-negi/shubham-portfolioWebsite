@@ -1,14 +1,18 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState, useRef, useEffect } from "react";
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image";
+  import { HiExternalLink } from "react-icons/hi";
+import { BsGithub } from "react-icons/bs";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
-import { BlogsData } from "@/constants";
+import { ProjectsData } from "@/constants";
 import Theme from "@/utils/Theme";
 import BackTo from "@/components/buttons/BackTo";
 
 const Portfolio = () => {
+  const [height1, setHeight1] = useState("");
+
+
   return (
     <Fragment>
       <Head>
@@ -16,39 +20,91 @@ const Portfolio = () => {
       </Head>
 
       <Theme>
-        <BackTo backTo={""} />
+
+      <BackTo backTo={""} />
         <div className="p-[5%] pt-[2%] dark:bg-gray-700">
-          <p className="font-bold text-2xl p-2 dark:text-white">Portfolio</p>
+          <p className="font-bold text-2xl p-2 dark:text-white">Blogs</p>
 
           <div className="pb-5">
             <ResponsiveMasonry
               columnsCountBreakPoints={{ 350: 2, 750: 3, 900: 4 }}
             >
               <Masonry>
-                {BlogsData.map((blog) => (
-                  <div
-                    className="dark:bg-gray-900 rounded-md border border-gray-400 border-solid m-2"
-                    key={blog.name}
-                  >
-                    <Link href={`/blogs/${blog.linkName}`} key={blog.name}>
-                      <div>
-                        <Image
-                          alt="img not found"
-                          className="rounded-t-md"
-                          height={250}
-                          src={blog.imageUrl}
-                          style={{ width: "100%" }}
-                          width={400}
-                        />
-                        <div className="px-1 py-2  border-t border-solid border-gray-600 dark:border-white">
-                          <div className="blogLink">{blog.name}</div>
-                          <p className="dark:text-white text-[0.5rem] md:text-xs py-1 text-gray-600 text-center">
-                            {blog.date}
-                          </p>
-                        </div>
-                      </div>
-                    </Link>
-                  </div>
+                {ProjectsData.map((project,key) => (
+                 <div
+                 className='transition-all duration-700 w-[330px]'
+                 key={key}
+               >
+                 {/* Project Image */}
+                 <div
+                   className={
+                     "w-[350px] shadow-md shadow-zinc-300 dark:shadow-zinc-700 h-48 bg-no-repeat flex flex-col justify-end rounded overflow-hidden bg-cover"
+                   }
+                   onMouseLeave={() => setHeight1("")}
+                   onMouseMove={() => setHeight1(project.projectName)}
+                   style={{
+                     backgroundImage: `url(${
+                       project?.projectImage?.imageUrl || ""
+                     })`,
+                   }}
+                 >
+                   <div
+                     className='bg-red-600 p-1 cursor-pointer'
+                     onMouseLeave={() => setHeight1("")}
+                     onMouseMove={() => setHeight1(project.projectName)}
+                   >
+                     {/* Project Name */}
+                     <p
+                       className='text-white text-center'
+                       onClick={() =>
+                         setHeight1(height1 === "" ? project.projectName : "")
+                       }
+                     >
+                       {project.projectName}
+                     </p>
+                     <div
+                       className='overflow-hidden transition-all duration-500 h-[70px] flex gap-10 justify-center items-center'
+                       style={
+                         height1 === project.projectName
+                           ? { maxHeight: "200px" }
+                           : { maxHeight: "0" }
+                       }
+                     >
+                       {/* GitHub Link */}
+                       {project.liveUrl && (
+                         <Link
+                           className='text-xl text-white p-1 bg-gray-700 hover:bg-gray-950 rounded'
+                           href={project.liveUrl}
+                           target='_blank'
+                         >
+                           <HiExternalLink />
+                         </Link>
+                       )}
+                       {/* Live url */}
+                       {project.githubUrl && (
+                         <Link
+                           className='text-xl text-white p-1 bg-gray-700 hover:bg-gray-950 rounded'
+                           href={project.githubUrl}
+                           target='_blank'
+                         >
+                           <BsGithub />
+                         </Link>
+                       )}
+                     </div>
+                   </div>
+                 </div>
+                 {/* Tech Stack */}
+                 <div className='flex flex-wrap gap-2 mt-4'>
+                   {project.techs.map((tech ,key) => (
+                     <p
+                       className='px-1 text-sm rounded bg-blue-500 text-white'
+                       key={key}
+                     >
+                       {tech}
+                     </p>
+                   ))}
+                 </div>
+               </div>
                 ))}
               </Masonry>
             </ResponsiveMasonry>
