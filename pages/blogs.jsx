@@ -27,14 +27,14 @@ const BlogsPage = () => {
               <Masonry>
                 {BlogsData.map((blog) => (
                   <div
-                    className="dark:bg-gray-900 rounded-md border border-gray-400 border-solid m-2"
+                    className="dark:bg-gray-900 rounded-sm border border-gray-400 border-solid m-2"
                     key={blog.name}
                   >
                     <Link href={`/blogs/${blog.linkName}`} key={blog.name}>
                       <div>
                         <Image
                           alt="img not found"
-                          className="rounded-t-md"
+                          className=""
                           height={250}
                           src={blog.imageUrl}
                           style={{ width: "100%" }}

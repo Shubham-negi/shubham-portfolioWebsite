@@ -3,7 +3,7 @@ export const ExperienceData = [
     companyName: "Mobile programming LLC",
     location: "Dehradun, India",
     role: "Unity developer , full stake",
-    fromTo: "February 2023 - August 2023",
+    fromTo: "February 2023 - August 2024",
     description:
       "As a Unity Developer, I was responsible for creating, maintaining, and integrating functionality within various projects. In addition, as a full-stack developer, I took full ownership of the end-to-end technology stack, ensuring seamless development and deployment across both front-end and back-end systems.",
     side: "left",

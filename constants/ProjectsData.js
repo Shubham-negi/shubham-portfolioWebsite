@@ -6,7 +6,7 @@ export const ProjectsData = [
         projectImage: {
             imageUrl: "http://res.cloudinary.com/dqfrtazgi/image/upload/v1696218285/yn3naeznjfgszsbbjr92.png"
         },
-        techs: ["NextJS", "TailwindCSS", "Redux Toolkit", "Cloudinary", "Intersection Objerver","ReactJS"]
+        techs: ["NextJS", "TailwindCSS","ReactJS"]
     },
     {
         projectName: "Blabeey",
