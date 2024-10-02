@@ -76,7 +76,7 @@ const Home = () => {
           {/* Apps */}
           {/* <Apps /> */}
           {/* Testimonials */}
-          <Testimonials />
+          {/* <Testimonials /> */}
            {/* Send Mail */}
           <SendMail />
           {/* Footer */}
