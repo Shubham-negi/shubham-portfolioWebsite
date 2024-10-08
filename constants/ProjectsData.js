@@ -1,6 +1,6 @@
 export const ProjectsData = [
     {
-        projectName: "Shubham:Personal porfolio generator",
+        projectName: "Personal porfolio",
         liveUrl: "https://theshubhamnegi.com",
         githubUrl: "https://github.com/Shubham-negi/shubham-portfolio.git",
         projectImage: {

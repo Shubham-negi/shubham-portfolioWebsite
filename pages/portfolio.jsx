@@ -22,16 +22,16 @@ const Portfolio = () => {
 
       <BackTo backTo={""} />
         <div className="p-[5%] pt-[2%] dark:bg-gray-700">
-          <p className="font-bold text-2xl p-2 dark:text-white">Blogs</p>
+          <p className="font-bold text-2xl p-2 dark:text-white">Portfolio</p>
 
-          <div className="pb-5">
+          <div className="pb-10">
           <ResponsiveMasonry
   columnsCountBreakPoints={{ 350: 2, 750: 3, 900: 4 }}
 >
   <Masonry>
     {ProjectsData.map((project) => (
       <div
-        className="dark:bg-black rounded-l-md border border-gray-400 border-solid m-5"
+        className="dark:bg-black rounded-l-md border border-gray-400 border-solid m-2"
         key={project.projectName}
       >
         {/* Project Image */}
@@ -43,7 +43,7 @@ const Portfolio = () => {
           onMouseMove={() => setHeight1(project.projectName)}
           style={{
             backgroundImage: `url(${project?.projectImage?.imageUrl || ""})`,
-            aspectRatio: '16/9', // Maintain aspect ratio
+            aspectRatio: '10/9', // Maintain aspect ratio
           }}
         >
           <div
@@ -64,7 +64,7 @@ const Portfolio = () => {
               className='overflow-hidden transition-all duration-500 h-[70px] flex gap-10 justify-center items-center'
               style={
                 height1 === project.projectName
-                  ? { maxHeight: "200px" }
+                  ? { maxHeight: "30px" }
                   : { maxHeight: "0" }
               }
             >
@@ -92,7 +92,7 @@ const Portfolio = () => {
           </div>
         </div>
         {/* Tech Stack */}
-        <div className='flex flex-wrap gap-2 mt-4'>
+        <div className='flex flex-wrap gap-1 mt-2'>
           {project.techs.map((tech, key) => (
             <p
               className='px-1 text-sm rounded bg-blue-500 text-white'

@@ -44,12 +44,12 @@ const Portfolio = () =>{
         </h2>
 
         <div
-          className='min-h-[40px] pop-down-child pb-[30px] flex flex-wrap px-[20px] gap-8 justify-around items-center shadow-sm shadow-zinc-300 dark:shadow-zinc-700'
+          className='min-h-[40px] pop-down-child pb-[30px] flex flex-wrap px-[20px] gap-10 justify-around items-center shadow-sm shadow-zinc-300 dark:shadow-zinc-700'
           ref={projectBoxesRef}
         >
           {ProjectsData.slice(-4).map((project ,key) => (
             <div
-              className='transition-all duration-700 w-[330px]'
+              className='transition-all duration-700 w-[350px]'
               key={key}
             >
               {/* Project Image */}
@@ -124,10 +124,11 @@ const Portfolio = () =>{
             </div>
           ))}
           
-          <div className='ml-auto w-fit  mr-10 mt-30'>
+          <div className='ml-auto w-fit  mr-2 mt-30'>
             <AnimatedButton buttoname="Explore projects" href="/portfolio" />
           </div>
         </div>
+       
        
       </section>
     </Fragment>

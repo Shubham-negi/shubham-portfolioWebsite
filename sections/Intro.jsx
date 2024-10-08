@@ -24,7 +24,7 @@ const Intro = () => {
           setIsHome(homeEntry.isIntersecting);
         },
         {
-          rootMargin: `${getScreenWidth() <= 700 ? "-100px" : "-300px"}`,
+          rootMargin: `${getScreenWidth() <= 600 ? "-100px" : "-300px"}`,
         }
       );
 
@@ -47,14 +47,14 @@ const Intro = () => {
       </Head>
       <section id='home'>
         <div
-          className='min-h-[100vh] overflow-x-hidden px-[20px] md:px-[200px] lg:px-[200px] pt-[80px] md:pt-0 md:flex items-center justify-between shadow-zinc-300 dark:shadow-zinc-700 shadow-sm'
+          className='min-h-[100vh] overflow-x-hidden px-[50px] md:px-[50px] lg:px-[50px] pt-[80px] md:pt-10 md:flex items-center justify-between shadow-zinc-300 dark:shadow-zinc-700 shadow-sm'
           ref={homeRef}
         >
           <div
             className='translate-x-[-500px] transition-all duration-700 opacity-0'
             ref={introRef}
           >
-            <p className='py-2 text-2xl md:text-4xl font-semibold font-sans'>
+            <p className=' text-4xl md:text-4xl font-semibold font-sans'>
               Hi There !
             </p>
             {/* Profile Name */}
