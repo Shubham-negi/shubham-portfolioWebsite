@@ -2,7 +2,7 @@ export const ProjectsData = [
     {
         projectName: "Personal porfolio",
         liveUrl: "https://theshubhamnegi.com",
-        githubUrl: "https://github.com/Shubham-negi/shubham-portfolio.git",
+        githubUrl: "https://github.com/Shubham-negi/shubham-portfolio.git.jhhjhh",
         projectImage: {
             imageUrl: "http://res.cloudinary.com/dqfrtazgi/image/upload/v1696218285/yn3naeznjfgszsbbjr92.png"
         },
