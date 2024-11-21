@@ -41,7 +41,7 @@ export const ProjectsData = [
         liveUrl: "https://play.google.com/store/apps/details?id=com.blabeey.sirtokesVHuman&hl=en_US",
         githubUrl: "https://github.com/shubham/Cannavatar",
         projectImage: {
-            imageUrl: "/images/Cannavatar.png"
+            imageUrl: "/images/cannavatar.png"
         },
         techs: ["Unity3d", "Webapi", "Multiplayer"]
     },
