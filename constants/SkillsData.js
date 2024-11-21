@@ -51,18 +51,6 @@ export const TechStackData = [
         icon: <SiTailwindcss className="md:text-4xl text-2xl" color="#4caf50" />,
       },
       {
-        name: "Meterial UI",
-        icon: <SiMui className="md:text-4xl text-2xl" color="#29b6f6" />,
-      },
-      {
-        name: "Chakra UI",
-        icon: <SiChakraui className="md:text-4xl text-2xsl" color="#50cbc0" />
-      },
-      {
-        name: "Vercel",
-        icon: <SiVercel className="dark:text-white text-black md:text-4xl text-2xl" />
-      },
-      {
         name: "Github",
         icon: <BsGithub className="md:text-4xl text-2xl" color="#c9d1d9" />
       },
@@ -93,10 +81,6 @@ export const TechStackData = [
         icon: <SiJquery className="md:text-4xl text-2xsl" color="#106dae" />
       },
       {
-        name: "netlify",
-        icon: <SiNetlify className="md:text-4xl text-2xl" color={"#31b5ba"} />
-      },
-      {
         name: "Git",
         icon: <BsGit className="md:text-4xl text-2xl" color="#f4511e" />
       },
@@ -114,10 +98,6 @@ export const TechStackData = [
       {
         name: "React Native",
         icon: <TbBrandReactNative className="md:text-4xl text-2xl" color="#66dbfb" />
-      },
-      {
-        name: "PHP",
-        icon: <FaPhp className="md:text-4xl text-2xl" color="#7b7fb5" />
       },
       {
         name: "JAVA",

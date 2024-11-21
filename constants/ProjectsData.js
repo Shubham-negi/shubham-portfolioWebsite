@@ -55,4 +55,24 @@ export const ProjectsData = [
         techs: ["ReactJS", "NodeJS", "Express", "MongoDB", "Unity3d",]
     },
     
+    {
+        projectName: "Aviation simulation ",
+        liveUrl: "https://drive.google.com/file/d/1Wk40d99LvxpkI7rvm8cHjRGLR1QjDvDv/view?usp=sharing",
+        githubUrl: "",
+        projectImage: {
+            imageUrl: "/images/cockpit.jpg"
+        },
+        techs: ["VR","XR", "Unity3d",]
+    },
+    
+    {
+        projectName: "MLS ",
+        liveUrl: "https://drive.google.com/file/d/1d9UxXxb6q31JGiJIflzkwj24V5_R-6hb/view?usp=sharing",
+        githubUrl: "",
+        projectImage: {
+            imageUrl: "/images/MLS.png"
+        },
+        techs: ["VR","XR", "Unity3d",]
+    },
+    
 ]
