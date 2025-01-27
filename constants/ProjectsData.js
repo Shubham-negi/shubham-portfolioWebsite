@@ -70,9 +70,29 @@ export const ProjectsData = [
         liveUrl: "https://drive.google.com/file/d/1d9UxXxb6q31JGiJIflzkwj24V5_R-6hb/view?usp=sharing",
         githubUrl: "",
         projectImage: {
-            imageUrl: "/images/MLS.png"
+            imageUrl: "/images/MLs.png"
         },
         techs: ["VR","XR", "Unity3d",]
+    },
+    
+    {
+        projectName: "Slash",
+        liveUrl: "https://shubhamnegi.itch.io/slash",
+        githubUrl: "",
+        projectImage: {
+            imageUrl: "/images/Slash.png"
+        },
+        techs: ["Unity3d","Action","Android","2D"]
+    },
+    
+    {
+        projectName: "Soccer Strike",
+        liveUrl: "https://shubhamnegi.itch.io/soccerstrike",
+        githubUrl: "",
+        projectImage: {
+            imageUrl: "/images/Soccer.png"
+        },
+        techs: ["Unity3d","Action","Android","3D"]
     },
     
 ]
