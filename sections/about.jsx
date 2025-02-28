@@ -74,7 +74,7 @@ const About = () => {
             </p>
             {/* Profil Name */}
             <p className='text-center md:text-left text-red-600 mt-1'>
-              Full stack web developer,unity developer
+              unity developer
             </p>
             {/* Location */}
             <div className='flex flex-wrap justify-center md:justify-normal gap-5'>
@@ -137,7 +137,7 @@ const About = () => {
 
             <div className='mt-5 justify-evenly text-justify'>
               <p className='text-gray-600 dark:text-gray-300'>
-              Experienced Unity Developer and Full-Stack Developer with over 5 years of expertise in building immersive AR, VR, and metaverse applications, as well as 2D and 3D physics-based games. Skilled in designing, developing, and deploying end-to-end solutions, integrating both front-end and back-end systems. Adept at delivering high-quality, scalable products with a focus on performance, user experience, and innovation. Proven track record in leading complex projects, including a metaverse e-commerce platform, while collaborating with cross-functional teams to meet business goals.
+              Experienced Unity Developer with over 5 years of expertise in building immersive AR, VR, and metaverse applications, as well as 2D and 3D physics-based games. Skilled in designing, developing, and deploying end-to-end solutions, integrating both front-end and back-end systems. Adept at delivering high-quality, scalable products with a focus on performance, user experience, and innovation. Proven track record in leading complex projects, including a metaverse e-commerce platform, while collaborating with cross-functional teams to meet business goals.
               </p>
             </div>
           </div>
