@@ -72,7 +72,7 @@ const Home = () => {
           <SocialMedia />
 
           {/* LatestBlog */}
-          <LatestBlogs />
+          {/* <LatestBlogs /> */}
           {/* Apps */}
           {/* <Apps /> */}
           {/* Testimonials */}

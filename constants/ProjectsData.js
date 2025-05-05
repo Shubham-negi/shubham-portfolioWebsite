@@ -28,22 +28,22 @@ export const ProjectsData = [
         techs: ["Unity3d", "Webapi", "Multiplayer"]
     },
     {
-        projectName: "Storbeey",
-        liveUrl: "https://play.google.com/store/apps/details?id=com.Blabeey.Storbeey&hl=en_US&pli=1",
-        githubUrl: "https://github.com/shubham/storbeey",
+        projectName: "Appstrato",
+        liveUrl: "https://platform.appstrato.com/?_gl=1*47h22s*_ga*MTMwMjAxNzMzNC4xNzQ2NDM1MzM3*_ga_6LQ16X60XD*czE3NDY0MzUzMzYkbzEkZzAkdDE3NDY0MzUzMzYkajAkbDAkaDA.*_ga_EW3ZVR379B*czE3NDY0MzUzMzYkbzEkZzAkdDE3NDY0MzUzMzYkajAkbDAkaDA.",
+        githubUrl: "",
         projectImage: {
-            imageUrl: "/images/storbeey.png"
+            imageUrl: "/images/Appstrato.jpg"
         },
-        techs: ["Unity3d", "Webapi", "Multiplayer"]
+        techs: ["Next.js", "PostgreSQL", "ReactJS","Azure"]
     },
     {
-        projectName: "Cannavatar",
-        liveUrl: "https://play.google.com/store/apps/details?id=com.blabeey.sirtokesVHuman&hl=en_US",
-        githubUrl: "https://github.com/shubham/Cannavatar",
+        projectName: "Optimuscollege",
+        liveUrl: "https://www.optimuscollege.com/",
+        githubUrl: "",
         projectImage: {
-            imageUrl: "/images/cannavatar.png"
+            imageUrl: "/images/optimuscollege.png"
         },
-        techs: ["Unity3d", "Webapi", "Multiplayer"]
+        techs: ["Next.js", "AWS", "React", "MongoDB"]
     },
     {
         projectName: "LaunchXR",

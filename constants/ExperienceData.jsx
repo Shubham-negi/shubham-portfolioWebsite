@@ -1,5 +1,14 @@
 export const ExperienceData = [
   {
+    companyName: "Briz solutions",
+    location: "Noida, India",
+    role: "Unity developer , full stake",
+    fromTo: "September 2023 - Present",
+    description:
+      "",
+    side: "right",
+  },
+  {
     companyName: "Mobile programming LLC",
     location: "Dehradun, India",
     role: "Unity developer , full stake",
