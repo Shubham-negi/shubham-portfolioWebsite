@@ -74,5 +74,15 @@ export const ProjectsData = [
         },
         techs: ["VR","XR", "Unity3d",]
     },
+      
+    {
+        projectName: "NoFlyZoneX",
+        liveUrl: "https://www.youtube.com/watch?v=6OAkz0sVD0Q&list=PLVfozG547ScD8B_nXln0Ts31RaGfPwNEX",
+        githubUrl: "https://github.com/Shubham-negi/NoFlyZone",
+        projectImage: {
+            imageUrl: "/images/NFZLogo.png"
+        },
+        techs: ["2d","Firebase", "Unity2d",]
+    },
     
 ]
