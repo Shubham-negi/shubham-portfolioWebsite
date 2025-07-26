@@ -28,26 +28,26 @@ export const ProjectsData = [
         techs: ["Unity3d", "Webapi", "Multiplayer"]
     },
     {
-        projectName: "Appstrato",
-        liveUrl: "https://platform.appstrato.com/?_gl=1*47h22s*_ga*MTMwMjAxNzMzNC4xNzQ2NDM1MzM3*_ga_6LQ16X60XD*czE3NDY0MzUzMzYkbzEkZzAkdDE3NDY0MzUzMzYkajAkbDAkaDA.*_ga_EW3ZVR379B*czE3NDY0MzUzMzYkbzEkZzAkdDE3NDY0MzUzMzYkajAkbDAkaDA.",
-        githubUrl: "",
+        projectName: "Storbeey",
+        liveUrl: "https://play.google.com/store/apps/details?id=com.Blabeey.Storbeey&hl=en_US&pli=1",
+        githubUrl: "https://github.com/shubham/storbeey",
         projectImage: {
-            imageUrl: "/images/Appstrato.jpg"
+            imageUrl: "/images/storbeey.png"
         },
-        techs: ["Next.js", "PostgreSQL", "ReactJS","Azure"]
+        techs: ["Unity3d", "Webapi", "Multiplayer"]
     },
     {
-        projectName: "Optimuscollege",
-        liveUrl: "https://www.optimuscollege.com/",
-        githubUrl: "",
+        projectName: "Cannavatar",
+        liveUrl: "https://play.google.com/store/apps/details?id=com.blabeey.sirtokesVHuman&hl=en_US",
+        githubUrl: "https://github.com/shubham/Cannavatar",
         projectImage: {
-            imageUrl: "/images/optimuscollege.png"
+            imageUrl: "/images/cannavatar.png"
         },
-        techs: ["Next.js", "AWS", "React", "MongoDB"]
+        techs: ["Unity3d", "Webapi", "Multiplayer"]
     },
     {
         projectName: "LaunchXR",
-        liveUrl: "https://www.launchxr.io/",
+        liveUrl: "https://www.youtube.com/watch?v=menjJSNpkk4&t=246s",
         githubUrl: "https://github.com/shubham/storbeey",
         projectImage: {
             imageUrl: "/images/LaunchXR.png"
@@ -57,7 +57,7 @@ export const ProjectsData = [
     
     {
         projectName: "Aviation simulation ",
-        liveUrl: "https://drive.google.com/file/d/1Wk40d99LvxpkI7rvm8cHjRGLR1QjDvDv/view?usp=sharing",
+        liveUrl: "https://www.youtube.com/watch?v=Axe4GBRhq4o&list=PLVfozG547ScD8B_nXln0Ts31RaGfPwNEX",
         githubUrl: "",
         projectImage: {
             imageUrl: "/images/cockpit.jpg"
@@ -67,32 +67,12 @@ export const ProjectsData = [
     
     {
         projectName: "MLS ",
-        liveUrl: "https://drive.google.com/file/d/1d9UxXxb6q31JGiJIflzkwj24V5_R-6hb/view?usp=sharing",
+        liveUrl: "https://www.youtube.com/watch?v=F52fPeDMmNs&list=PLVfozG547ScD8B_nXln0Ts31RaGfPwNEX&index=4",
         githubUrl: "",
         projectImage: {
-            imageUrl: "/images/MLs.png"
+            imageUrl: "/images/MLS.png"
         },
         techs: ["VR","XR", "Unity3d",]
-    },
-    
-    {
-        projectName: "Slash",
-        liveUrl: "https://shubhamnegi.itch.io/slash",
-        githubUrl: "",
-        projectImage: {
-            imageUrl: "/images/Slash.png"
-        },
-        techs: ["Unity3d","Action","Android","2D"]
-    },
-    
-    {
-        projectName: "Soccer Strike",
-        liveUrl: "https://shubhamnegi.itch.io/soccerstrike",
-        githubUrl: "",
-        projectImage: {
-            imageUrl: "/images/Soccer.png"
-        },
-        techs: ["Unity3d","Action","Android","3D"]
     },
     
 ]
