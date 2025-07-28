@@ -87,7 +87,7 @@ const Intro = () => {
           {/* Image */}
           <div
             className={
-              "translate-x-[500px] transition-all opacity-0 duration-700 w-[300px] h-[300px] md:w-[400px] md:h-[600px] bg-cover m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat bg-center"
+              "translate-x-[500px] transition-all opacity-0 duration-700 w-[350px] h-[300px] md:w-[600px] md:h-[450px] bg-cover m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat bg-center"
             }
             ref={profileRef}
             style={{ backgroundImage: "url(./images/developer.png)" }}

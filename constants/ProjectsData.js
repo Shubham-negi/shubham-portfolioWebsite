@@ -10,41 +10,33 @@ export const ProjectsData = [
     },
     {
         projectName: "Blabeey",
-        liveUrl: "https://apps.apple.com/us/app/blabeey/id1220579408",
-        githubUrl: "https://github.com/shubham/storbeey",
+        liveUrl: "https://www.youtube.com/@blabeeyworld3319",
+        githubUrl: "",
         projectImage: {
             imageUrl: "/images/Blabeey.jpeg"
         },
-        techs: ["Unity3d", "Webapi", "Multiplayer"]
+        techs: ["Unity3d", "Webapi"]
     },
    
     {
         projectName: "Storbeey real-estate",
-        liveUrl: "https://apps.apple.com/us/app/storbeey-real-estate/id1530780780",
+        liveUrl: "https://www.youtube.com/watch?v=xbYvSWZetMs",
         githubUrl: "https://github.com/shubham/storbeey",
         projectImage: {
             imageUrl: "/images/StorbeeyR.webp"
         },
-        techs: ["Unity3d", "Webapi", "Multiplayer"]
+        techs: ["Unity3d", "Webapi"]
     },
     {
         projectName: "Storbeey",
-        liveUrl: "https://play.google.com/store/apps/details?id=com.Blabeey.Storbeey&hl=en_US&pli=1",
+        liveUrl: "https://www.youtube.com/watch?v=mY3pxwqXm4c",
         githubUrl: "https://github.com/shubham/storbeey",
         projectImage: {
             imageUrl: "/images/storbeey.png"
         },
-        techs: ["Unity3d", "Webapi", "Multiplayer"]
+        techs: ["Unity3d", "Webapi"]
     },
-    {
-        projectName: "Cannavatar",
-        liveUrl: "https://play.google.com/store/apps/details?id=com.blabeey.sirtokesVHuman&hl=en_US",
-        githubUrl: "https://github.com/shubham/Cannavatar",
-        projectImage: {
-            imageUrl: "/images/cannavatar.png"
-        },
-        techs: ["Unity3d", "Webapi", "Multiplayer"]
-    },
+  
     {
         projectName: "LaunchXR",
         liveUrl: "https://www.youtube.com/watch?v=menjJSNpkk4&t=246s",
@@ -83,6 +75,33 @@ export const ProjectsData = [
             imageUrl: "/images/NFZLogo.png"
         },
         techs: ["2d","Firebase", "Unity2d",]
+    },
+      {
+        projectName: "Ram mandir ",
+        liveUrl: "",
+        githubUrl: "",
+        projectImage: {
+            imageUrl: "/images/Ramandir.jpg"
+        },
+        techs: ["VR","XR", "Unity3d",]
+    },
+     {
+        projectName: "SoccerStrike ",
+        liveUrl: "https://shubhamnegi.itch.io/soccerstrike",
+        githubUrl: "",
+        projectImage: {
+            imageUrl: "/images/SoccerStrike.png"
+        },
+        techs: ["3D","Android", "Unity3d",]
+    },
+     {
+        projectName: "Slash ",
+        liveUrl: "https://shubhamnegi.itch.io/slash",
+        githubUrl: "",
+        projectImage: {
+            imageUrl: "/images/Slash.png"
+        },
+        techs: ["2D","Android", "Unity2d",]
     },
     
 ]
