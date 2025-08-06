@@ -23,12 +23,6 @@ export const NavbarMenu = [
         name: "Portfolio",
         link: "#portfolio",
     },
-    {
-        name: "Blogs",
-        link: "#blogs",
-    },
-    {
-        name: "Testimonials",
-        link: "#testimonials",
-    },
+   
+   
 ];

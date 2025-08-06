@@ -56,14 +56,13 @@ const About = () => {
           {/* Person Image */}
           <Image
             alt='about image'
-            className={
-              "shadow-zinc-300 dark:shadow-zinc-700 shadow-sm transition-all duration-700 translate-x-[-900px] bg-blue-200 m-auto bg-cover bg-no-repeat max-h-[500px] rounded object-contain"
-            }
-            height={350}
+            className="shadow-zinc-300 dark:shadow-zinc-700 shadow-sm transition-all duration-700 translate-x-[-900px] bg-blue-200 m-auto bg-cover bg-no-repeat max-h-full rounded-full object-contain"
+            height={500}
             ref={profile2Ref}
             src='/images/shubhamImg.png'
-            width={350}
+            width={500}
           />
+
           <div
             className='text-lg translate-x-[900px] opacity-0 transition-all duration-700 mt-4 md:mt-0 md:w-[50%] text-center md:text-left rounded'
             ref={aboutInfoRef}
@@ -74,7 +73,7 @@ const About = () => {
             </p>
             {/* Profil Name */}
             <p className='text-center md:text-left text-red-600 mt-1'>
-              unity developer
+              Unity developer
             </p>
             {/* Location */}
             <div className='flex flex-wrap justify-center md:justify-normal gap-5'>
@@ -137,7 +136,7 @@ const About = () => {
 
             <div className='mt-5 justify-evenly text-justify'>
               <p className='text-gray-600 dark:text-gray-300'>
-              Experienced Unity Developer with over 5 years of expertise in building immersive AR, VR, and metaverse applications, as well as 2D and 3D physics-based games. Skilled in designing, developing, and deploying end-to-end solutions, integrating both front-end and back-end systems. Adept at delivering high-quality, scalable products with a focus on performance, user experience, and innovation. Proven track record in leading complex projects, including a metaverse e-commerce platform, while collaborating with cross-functional teams to meet business goals.
+                Experienced Unity Developer with over 5 years of expertise in building immersive AR, VR, and metaverse applications, as well as 2D and 3D physics-based games. Skilled in designing, developing, and deploying end-to-end solutions, integrating both front-end and back-end systems. Adept at delivering high-quality, scalable products with a focus on performance, user experience, and innovation. Proven track record in leading complex projects, including a metaverse e-commerce platform, while collaborating with cross-functional teams to meet business goals.
               </p>
             </div>
           </div>

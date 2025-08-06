@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <Fragment>
       <div className="p-2 dark:bg-black bg-[#ecf8f9] font-sans text-lg text-center">
-        @Shubham 2024
+        @Shubham 2025
       </div>
     </Fragment>
   );
